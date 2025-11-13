@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-baseURL = "https://opedromandrade.gihub.io"
+baseURL = "https://athul.github.io/archie/"
 languageCode = "en-us"
 title = 'pedro andrade'
 theme="archie"
