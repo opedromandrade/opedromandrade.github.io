@@ -1,0 +1,15 @@
+baseURL = "https://opedromandrade.github.io/"
+languageCode = "en-us"
+title = "My Website"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams.Title = "Hi there 👋"
+  homeInfoParams.Content = "Welcome to my website. This is where I'll share my thoughts."
+
+  socialIcons = [
+    { name = "github", url = "https://github.com/opedromandrade" }
+  ]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
