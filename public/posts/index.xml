@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on My Website</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My Website</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;This is my first post on my new Hugo website! testing this before migrating from wordpress :)&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on pedro andrade</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on pedro andrade</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 14 Jul 2026 12:00:00 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hello World</title>
+				<link>http://localhost:1313/posts/hello-world/</link>
+				<pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/posts/hello-world/</guid>
+				<description>&lt;p&gt;This is my first post on my new Hugo website! testing this before migrating from wordpress :)&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

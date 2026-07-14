@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Maverick</title>
+    <description>A minimal hugo theme focus on content</description>
+    <link>http://localhost:1313/</link>
+    
+    <language>en</language>
+    
+    <copyright>Copyright 2026, Calvin Tran</copyright>
+    <lastBuildDate>Tue, 14 Jul 2026 12:00:00 +0100</lastBuildDate>
+    <generator>Hugo - gohugo.io</generator>
+    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <description>&lt;p&gt;This is my first post on my new Hugo website! testing this before migrating from wordpress :)&lt;/p&gt;
+</description>
+      <author>Calvin Tran</author>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
+    </item>
+    
+  </channel>
+</rss>
