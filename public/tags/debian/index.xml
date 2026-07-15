@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Debian on pedro andrade</title>
+		<link>http://localhost:1313/tags/debian/</link>
+		<description>Recent content in Debian on pedro andrade</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>pedro</copyright>
+		
+		
+			<lastBuildDate>Sat, 09 Aug 2025 18:21:22 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Debian Trixie</title>
+				<link>http://localhost:1313/posts/debian-trixie/</link>
+				<pubDate>Sat, 09 Aug 2025 18:21:22 +0000</pubDate>
+				<guid>http://localhost:1313/posts/debian-trixie/</guid>
+				<description>&lt;figure&gt;&lt;img src=&#34;https://e7.pngegg.com/pngimages/141/800/png-clipart-blue-and-purple-toy-story-character-rex-trixie-jessie-sheriff-woody-buzz-lightyear-toy-story-terrestrial-animal-cartoon.png&#34; width=&#34;720&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;The new itereation of the universal operating system is here. Debian 13. Codename Trixie. This version will have a 5 year support and has many many updates and features from the previous one.&lt;/p&gt;&#xA;&lt;p&gt;Read the full release post &lt;a href=&#34;https://www.debian.org/News/2025/20250809&#34;&gt;here&lt;/a&gt; and the release notes &lt;a href=&#34;https://www.debian.org/releases/trixie/releasenotes&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LibreOffice: Spell checking, dictionary, localization et all</title>
+				<link>http://localhost:1313/posts/libreoffice-spell-checking-dictionary-localization-et-all/</link>
+				<pubDate>Sun, 24 Sep 2023 18:19:52 +0000</pubDate>
+				<guid>http://localhost:1313/posts/libreoffice-spell-checking-dictionary-localization-et-all/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://wiki.documentfoundation.org/images/thumb/3/3d/Logo_-_2010-10-27_-_v23_-_RIDGID_-_RGB_-_Final.png/500px-Logo_-_2010-10-27_-_v23_-_RIDGID_-_RGB_-_Final.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So in order to install further features to your LibreOffice installation, like spell checking, dictionary, localization and some other features, in a a very easy way, just copy these simple commands. Mind you that the &lt;em&gt;tag&lt;/em&gt; after the package name, refers to my personal taste/installation, i.e.: &lt;em&gt;libreoffice-l10n-pt&lt;/em&gt; where &lt;strong&gt;pt&lt;/strong&gt; is my country localization files. in &lt;em&gt;myspell-pt-pt&lt;/em&gt; &lt;strong&gt;pt-pt&lt;/strong&gt; is specific to European Portuguese. To get a full list of options and choose your own check the Debian &lt;a href=&#34;https://bit.ly/3fccCk8&#34;&gt;Package page&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

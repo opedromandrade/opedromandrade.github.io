@@ -9,7 +9,18 @@
 		
 		
 		
+			<copyright>pedro</copyright>
+		
+		
+			<lastBuildDate>Sun, 20 Apr 2025 18:59:23 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tutorials</title>
+				<link>http://localhost:1313/categories/tutorials/</link>
+				<pubDate>Sun, 20 Apr 2025 18:59:23 +0000</pubDate>
+				<guid>http://localhost:1313/categories/tutorials/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

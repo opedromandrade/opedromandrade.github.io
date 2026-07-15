@@ -9,6 +9,8 @@
 		
 		
 		
+			<copyright>pedro</copyright>
+		
 		
 			<lastBuildDate>Tue, 14 Jul 2026 18:09:36 +0100</lastBuildDate>
 		
@@ -26,6 +28,34 @@
 				<pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
 				<guid>http://localhost:1313/posts/hello-world/</guid>
 				<description>&lt;p&gt;This is my first post on my new Hugo website! testing this before migrating from wordpress :)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Debian Trixie</title>
+				<link>http://localhost:1313/posts/debian-trixie/</link>
+				<pubDate>Sat, 09 Aug 2025 18:21:22 +0000</pubDate>
+				<guid>http://localhost:1313/posts/debian-trixie/</guid>
+				<description>&lt;figure&gt;&lt;img src=&#34;https://e7.pngegg.com/pngimages/141/800/png-clipart-blue-and-purple-toy-story-character-rex-trixie-jessie-sheriff-woody-buzz-lightyear-toy-story-terrestrial-animal-cartoon.png&#34; width=&#34;720&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;The new itereation of the universal operating system is here. Debian 13. Codename Trixie. This version will have a 5 year support and has many many updates and features from the previous one.&lt;/p&gt;&#xA;&lt;p&gt;Read the full release post &lt;a href=&#34;https://www.debian.org/News/2025/20250809&#34;&gt;here&lt;/a&gt; and the release notes &lt;a href=&#34;https://www.debian.org/releases/trixie/releasenotes&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kobo - Back It Up!</title>
+				<link>http://localhost:1313/posts/kobo-back-it-up/</link>
+				<pubDate>Sun, 20 Apr 2025 18:59:23 +0000</pubDate>
+				<guid>http://localhost:1313/posts/kobo-back-it-up/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/wp-content/2025/04/art-attack-zoq5o-vygag-unsplash.jpg?w=460&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a proud &lt;a href=&#34;https://en.wikipedia.org/wiki/Kobo_eReader#Kobo_Aura_H2O_Edition_2&#34;&gt;Kobo Aura H2O Edition 2&lt;/a&gt; owner and user since 2017, and I couldn&amp;rsquo;t be happier. But a few days ago, I was importing a pdf file to calmly ready to my son, and allas trouble in paradise! The pdf file was somewhat corrupted, and while transferring to my device using Calibre, it borked and corrupted the internal database. It kept freezing a 6% and rebooted. It rendered unusable for transferring any other files. I could use it, but not to import new files.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Most excellent introduction to SDR</title>
+				<link>http://localhost:1313/posts/most-excellent-introduction-to-sdr/</link>
+				<pubDate>Mon, 15 Jul 2024 17:44:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/most-excellent-introduction-to-sdr/</guid>
+				<description>&lt;p&gt;YouTuber Paul Lutus posted a video that is to my opinion a very good introduction to &lt;a href=&#34;https://en.wikipedia.org/wiki/Software-defined_radio&#34;&gt;SDR&lt;/a&gt; and particularly, &lt;a href=&#34;http://www.rtl-sdr.com&#34;&gt;RTL-SDR,&lt;/a&gt; considered by many a gateway to SDR and overall radio hobby.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/iXNgPYVpTng?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>LibreOffice: Spell checking, dictionary, localization et all</title>
+				<link>http://localhost:1313/posts/libreoffice-spell-checking-dictionary-localization-et-all/</link>
+				<pubDate>Sun, 24 Sep 2023 18:19:52 +0000</pubDate>
+				<guid>http://localhost:1313/posts/libreoffice-spell-checking-dictionary-localization-et-all/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://wiki.documentfoundation.org/images/thumb/3/3d/Logo_-_2010-10-27_-_v23_-_RIDGID_-_RGB_-_Final.png/500px-Logo_-_2010-10-27_-_v23_-_RIDGID_-_RGB_-_Final.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So in order to install further features to your LibreOffice installation, like spell checking, dictionary, localization and some other features, in a a very easy way, just copy these simple commands. Mind you that the &lt;em&gt;tag&lt;/em&gt; after the package name, refers to my personal taste/installation, i.e.: &lt;em&gt;libreoffice-l10n-pt&lt;/em&gt; where &lt;strong&gt;pt&lt;/strong&gt; is my country localization files. in &lt;em&gt;myspell-pt-pt&lt;/em&gt; &lt;strong&gt;pt-pt&lt;/strong&gt; is specific to European Portuguese. To get a full list of options and choose your own check the Debian &lt;a href=&#34;https://bit.ly/3fccCk8&#34;&gt;Package page&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

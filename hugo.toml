@@ -2,6 +2,7 @@ baseURL = "https://opedromandrade.github.io/"
 languageCode = "en-us"
 title = "pedro andrade"
 theme="archie"
+copyright = "pedro"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -16,6 +17,7 @@ pygmentscodefencesguesssyntax = true
 	#subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 	#mathjax = true # enable MathJax support
 	#katex = true # enable KaTeX support
+	 favicon = "favicon.svg"
 
 # Social Tags
 
@@ -32,11 +34,6 @@ url = "https://www.linkedin.com/in/opedromandrade/"
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com"
-
-[[params.social]]
-name = "YouTube"
-icon = "Youtube"
 url = "https://twitter.com"
 
 # Main menu Items

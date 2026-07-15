@@ -14,8 +14,37 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-07-14T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
+    <lastmod>2025-08-09T18:21:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/debian-trixie/</loc>
+    <lastmod>2025-08-09T18:21:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-08-09T18:21:22+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-09T18:21:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-20T18:59:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kobo/</loc>
+    <lastmod>2025-04-20T18:59:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kobo-back-it-up/</loc>
+    <lastmod>2025-04-20T18:59:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tutorials/</loc>
+    <lastmod>2025-04-20T18:59:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/most-excellent-introduction-to-sdr/</loc>
+    <lastmod>2024-07-15T17:44:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/radio/</loc>
+    <lastmod>2024-07-15T17:44:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/libreoffice-spell-checking-dictionary-localization-et-all/</loc>
+    <lastmod>2023-09-24T18:19:52+00:00</lastmod>
   </url>
 </urlset>
