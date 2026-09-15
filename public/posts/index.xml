@@ -20,7 +20,7 @@
 				<link>https://opedromandrade.github.io/posts/hello-world/</link>
 				<pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
 				<guid>https://opedromandrade.github.io/posts/hello-world/</guid>
-				<description>&lt;p&gt;This is my first post on my new Hugo website! Testing this out before fully migrating from WordPress :)&lt;/p&gt;&#xA;&lt;p&gt;The switch isn&amp;rsquo;t straightforward. I spent some time wrestling with migration tools, but nothing clicked quite right. So here we are — building slowly, learning as I go, and as i failed to import stuff automagically, I&amp;rsquo;m planning to do it manually if and when the time feels right.&lt;/p&gt;&#xA;&lt;p&gt;Why ditching wordpress after more than a decade?&lt;/p&gt;</description>
+				<description>&lt;p&gt;This is my first post on my new Hugo website! Testing this out before fully migrating from &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt;. :)&lt;/p&gt;&#xA;&lt;p&gt;The switch isn&amp;rsquo;t exactly straightforward. I spent some time wrestling with migration tools, but nothing clicked quite right. So here I am — building content slowly, learning as I go, and as i failed to import stuff automagically, I&amp;rsquo;m planning to do it manually if and when the time feels right.&lt;/p&gt;&#xA;&lt;p&gt;Why ditching &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt; after more than a decade?&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
