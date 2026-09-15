@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pedro andrade</title>
+		<link>https://opedromandrade.github.io/</link>
+		<description>Recent content on pedro andrade</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>pedro</copyright>
+		
+		
+			<lastBuildDate>Tue, 14 Jul 2026 18:09:36 +0100</lastBuildDate>
+		
+			<atom:link href="https://opedromandrade.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>https://opedromandrade.github.io/about/</link>
+				<pubDate>Tue, 14 Jul 2026 18:09:36 +0100</pubDate>
+				<guid>https://opedromandrade.github.io/about/</guid>
+				<description>&lt;p&gt;Hi! I&amp;rsquo;m pedro. Welcome to my website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;Write a few paragraphs here about who you are, what you do, and what interests you. LOL&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:your@email.com&#34;&gt;your@email.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/opedromandrade&#34;&gt;opedromandrade&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Hello World</title>
+				<link>https://opedromandrade.github.io/posts/hello-world/</link>
+				<pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
+				<guid>https://opedromandrade.github.io/posts/hello-world/</guid>
+				<description>&lt;p&gt;This is my first post on my new Hugo website! Testing this out before fully migrating from WordPress :)&lt;/p&gt;&#xA;&lt;p&gt;The switch isn&amp;rsquo;t straightforward. I spent some time wrestling with migration tools, but nothing clicked quite right. So here we are — building slowly, learning as I go, and as i failed to import stuff automagically, I&amp;rsquo;m planning to do it manually if and when the time feels right.&lt;/p&gt;&#xA;&lt;p&gt;Why ditching wordpress after more than a decade?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
