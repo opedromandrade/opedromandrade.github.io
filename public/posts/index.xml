@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on pedro andrade</title>
-		<link>http://localhost:1313/posts/</link>
+		<link>https://opedromandrade.github.io/posts/</link>
 		<description>Recent content in Posts on pedro andrade</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
-			<copyright>pedro</copyright>
+			<copyright> - pedro andrade</copyright>
 		
 		
 			<lastBuildDate>Tue, 15 Sep 2026 10:50:10 +0100</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://opedromandrade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>GitHub Activity Update</title>
-				<link>http://localhost:1313/posts/github_update/</link>
+				<link>https://opedromandrade.github.io/posts/github_update/</link>
 				<pubDate>Tue, 15 Sep 2026 10:50:10 +0100</pubDate>
-				<guid>http://localhost:1313/posts/github_update/</guid>
+				<guid>https://opedromandrade.github.io/posts/github_update/</guid>
 				<description>&lt;p&gt;The last few weeks have been quite busy with GitHub activity 📦&lt;/p&gt;&#xA;&lt;p&gt;For starters, I&amp;rsquo;m leaving &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt; — as you may have noticed — and using the powerful &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; blog for my blogging needs. I&amp;rsquo;ve tried to migrate posts from &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt;, but it was troublesome. I just couldn&amp;rsquo;t quite get my head around it. Most likely, I&amp;rsquo;ll be manually importing blog posts from &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt; — just a few of them to populate the new platform 📝&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Hello World</title>
-				<link>http://localhost:1313/posts/hello-world/</link>
+				<link>https://opedromandrade.github.io/posts/hello-world/</link>
 				<pubDate>Tue, 14 Jul 2026 12:00:00 +0100</pubDate>
-				<guid>http://localhost:1313/posts/hello-world/</guid>
+				<guid>https://opedromandrade.github.io/posts/hello-world/</guid>
 				<description>&lt;p&gt;&lt;img src=&#34;hello.jpg&#34; alt=&#34;hi&#34;&gt;&#xA;This is my first post on my new Hugo website! Testing this out before fully migrating from &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt;. :)&lt;/p&gt;&#xA;&lt;p&gt;The switch isn&amp;rsquo;t exactly straightforward. I spent some time wrestling with migration tools, but nothing clicked quite right. So here I am — building content slowly, learning as I go, and as i failed to import stuff automagically, I&amp;rsquo;m planning to do it manually if and when the time feels right.&lt;/p&gt;</description>
 			</item>
 	</channel>
