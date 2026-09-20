@@ -2,7 +2,10 @@
 <html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Nfo Forge - pedro andrade</title><link rel="icon" type="image/png" href=favicon.svg /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a .nfo file for MP3-encoded albums 🎵
+	<meta name="description" content="
+
+
+This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a .nfo file for MP3-encoded albums 🎵
 One variant uses ffmpeg and ffprobe to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn&rsquo;t available to read with ffprobe 😕
 So I created another script using a tool that&rsquo;s not quite open-source—but  - still very cool— called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯" />
 	<meta property="og:image" content="https://opedromandrade.github.io/"/>
@@ -60,7 +63,11 @@ So I created another script using a tool that’s not quite open-source—but - 
         </div>
         
         <section class="body">
-          <p>This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> file for MP3-encoded albums 🎵</p>
+          <figure><img src="/img/nfoforge.jpg"
+			alt="nfoforge" width="640">
+</figure>
+
+<p>This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> file for MP3-encoded albums 🎵</p>
 <p>One variant uses <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn&rsquo;t available to read with <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> 😕</p>
 <p>So I created another script using a tool that&rsquo;s not quite open-source—but  - still very cool— called <a href="https://mp3guessenc.sourceforge.io/">mp3guessenc</a>. This little gem provided exactly the information I was looking to output 🎯</p>
 <p>It initially used <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> to get some of its information, but it wasn&rsquo;t necessary and now all is made <em>in house</em> so to speak.</p>

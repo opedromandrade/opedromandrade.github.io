@@ -3,6 +3,8 @@ date = '2026-09-20T22:39:05+01:00'
 draft = false
 title = 'Nfo Forge'
 +++
+{{< figure src="/img/nfoforge.jpg" alt="nfoforge" width="640" >}}
+
 This weekend I've been reviewing some code for the scripts I built to easily create a [.nfo](https://en.wikipedia.org/wiki/.nfo) file for MP3-encoded albums 🎵
 
 One variant uses [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn't available to read with [ffprobe](https://ffmpeg.org/ffprobe.html) 😕
