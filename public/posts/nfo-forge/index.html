@@ -64,10 +64,10 @@ So I pivoted and crafted another script using a tool that’s not quite open-sou
 <p>One variant uses <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn&rsquo;t available to read with <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> 😕</p>
 <p>So I pivoted and crafted another script using a tool that&rsquo;s not quite open-source—but still very cool—called <a href="https://mp3guessenc.sourceforge.io/">mp3guessenc</a>. This little gem provided exactly the information I was looking to output 🎯</p>
 <p>Taming it, however, was no small feat. Parsing ID3v2.3 tags and handling UTF-8 characters required some serious digging and patience. But after a bit of elbow grease, I finally got it working smoothly!</p>
-<p>Here are some example <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> files if you choose  to take a peek at. 👀</p>
+<p><a href="https://github.com/opedromandrade/nfo-forge/tree/main/examples">Here</a> are some example <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> files if you choose  to take a peek at: <a href="https://github.com/opedromandrade/nfo-forge/tree/main/examples">nfo-forge examples</a></p>
 <p>If you compare them, they might look identical at first glance, but notice the difference: the one generated via <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> lacks those crucial encoding settings.</p>
 <p>As usual, I&rsquo;ve bundled all necessary modules together with the scripts to make them plug-and-play ready 📦</p>
-<p>If you have any ideas or plan to contribute, feel free to do so! 🛠️</p>
+<p>As always if you have any ideas or plan to contribute, feel free to do so! 🛠️</p>
 
         </section>
         <div class="post-tags">
