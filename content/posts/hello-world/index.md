@@ -3,7 +3,8 @@ title: "Hello World"
 date: 2026-07-14T12:00:00+01:00
 draft: false
 ---
-![hi](hello.jpg)
+{{< figure src="hello.jpg" alt="nfoforge" width="400" >}}
+
 This is my first post on my new Hugo website! Testing this out before fully migrating from [WordPress](https://wordpress.com/). :)
 
 The switch isn't exactly straightforward. I spent some time wrestling with migration tools, but nothing clicked quite right. So here I am — building content slowly, learning as I go, and as i failed to import stuff automagically, I'm planning to do it manually if and when the time feels right.
