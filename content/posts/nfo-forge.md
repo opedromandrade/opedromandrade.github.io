@@ -7,7 +7,9 @@ This weekend I've been reviewing some code for the scripts I built to easily cre
 
 One variant uses [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn't available to read with [ffprobe](https://ffmpeg.org/ffprobe.html) 😕
 
-So I pivoted and crafted another script using a tool that's not quite open-source—but still very cool—called [mp3guessenc](https://mp3guessenc.sourceforge.io/). This little gem provided exactly the information I was looking to output 🎯
+So I created another script using a tool that's not quite open-source—but  - still very cool— called [mp3guessenc](https://mp3guessenc.sourceforge.io/). This little gem provided exactly the information I was looking to output 🎯
+
+It initially used [ffprobe](https://ffmpeg.org/ffprobe.html) to get some of its information, but it wasn't necessary and now all is made *in house* so to speak.
 
 Taming it, however, was no small feat. Parsing ID3v2.3 tags and handling UTF-8 characters required some serious digging and patience. But after a bit of elbow grease, I finally got it working smoothly!
 

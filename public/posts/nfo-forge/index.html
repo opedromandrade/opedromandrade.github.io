@@ -4,14 +4,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Nfo Forge - pedro andrade</title><link rel="icon" type="image/png" href=favicon.svg /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a .nfo file for MP3-encoded albums 🎵
 One variant uses ffmpeg and ffprobe to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn&rsquo;t available to read with ffprobe 😕
-So I pivoted and crafted another script using a tool that&rsquo;s not quite open-source—but still very cool—called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯" />
+So I created another script using a tool that&rsquo;s not quite open-source—but  - still very cool— called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯" />
 	<meta property="og:image" content="https://opedromandrade.github.io/"/>
 	<meta property="og:url" content="https://opedromandrade.github.io/posts/nfo-forge/">
 	<meta property="og:site_name" content="pedro andrade">
 	<meta property="og:title" content="Nfo Forge">
 	<meta property="og:description" content="This weekend I’ve been reviewing some code for the scripts I built to easily create a .nfo file for MP3-encoded albums 🎵
 One variant uses ffmpeg and ffprobe to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn’t available to read with ffprobe 😕
-So I pivoted and crafted another script using a tool that’s not quite open-source—but still very cool—called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯">
+So I created another script using a tool that’s not quite open-source—but - still very cool— called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
@@ -22,7 +22,7 @@ So I pivoted and crafted another script using a tool that’s not quite open-sou
 	<meta name="twitter:title" content="Nfo Forge">
 	<meta name="twitter:description" content="This weekend I’ve been reviewing some code for the scripts I built to easily create a .nfo file for MP3-encoded albums 🎵
 One variant uses ffmpeg and ffprobe to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn’t available to read with ffprobe 😕
-So I pivoted and crafted another script using a tool that’s not quite open-source—but still very cool—called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯">
+So I created another script using a tool that’s not quite open-source—but - still very cool— called mp3guessenc. This little gem provided exactly the information I was looking to output 🎯">
 
         <link href="https://opedromandrade.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
@@ -62,7 +62,8 @@ So I pivoted and crafted another script using a tool that’s not quite open-sou
         <section class="body">
           <p>This weekend I&rsquo;ve been reviewing some code for the scripts I built to easily create a <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> file for MP3-encoded albums 🎵</p>
 <p>One variant uses <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> to gather all the metadata. Sadly, this approach falls short when you need to know the specific encoding settings used during the actual rip. Unfortunately, that detail just isn&rsquo;t available to read with <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> 😕</p>
-<p>So I pivoted and crafted another script using a tool that&rsquo;s not quite open-source—but still very cool—called <a href="https://mp3guessenc.sourceforge.io/">mp3guessenc</a>. This little gem provided exactly the information I was looking to output 🎯</p>
+<p>So I created another script using a tool that&rsquo;s not quite open-source—but  - still very cool— called <a href="https://mp3guessenc.sourceforge.io/">mp3guessenc</a>. This little gem provided exactly the information I was looking to output 🎯</p>
+<p>It initially used <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> to get some of its information, but it wasn&rsquo;t necessary and now all is made <em>in house</em> so to speak.</p>
 <p>Taming it, however, was no small feat. Parsing ID3v2.3 tags and handling UTF-8 characters required some serious digging and patience. But after a bit of elbow grease, I finally got it working smoothly!</p>
 <p><a href="https://github.com/opedromandrade/nfo-forge/tree/main/examples">Here</a> are some example <a href="https://en.wikipedia.org/wiki/.nfo">.nfo</a> files if you choose  to take a peek at: <a href="https://github.com/opedromandrade/nfo-forge/tree/main/examples">nfo-forge examples</a></p>
 <p>If you compare them, they might look identical at first glance, but notice the difference: the one generated via <a href="https://ffmpeg.org/ffprobe.html">ffprobe</a> lacks those crucial encoding settings.</p>
