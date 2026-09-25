@@ -12,9 +12,16 @@
 			<copyright>- pedro andrade</copyright>
 		
 		
-			<lastBuildDate>Sun, 20 Sep 2026 22:39:05 +0100</lastBuildDate>
+			<lastBuildDate>Fri, 25 Sep 2026 10:27:38 +0100</lastBuildDate>
 		
 			<atom:link href="https://opedromandrade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Refining the Narrative</title>
+				<link>https://opedromandrade.github.io/posts/refining-narrative/</link>
+				<pubDate>Fri, 25 Sep 2026 10:27:38 +0100</pubDate>
+				<guid>https://opedromandrade.github.io/posts/refining-narrative/</guid>
+				<description>&lt;figure&gt;&lt;img src=&#34;https://opedromandrade.github.io/posts/refining-narrative/cv&amp;#43;markdown.svg&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;cv&amp;#43;markdown&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I&amp;rsquo;ve been working and polishing my CV lately: tightening the content, reviewing every line. It’s a work in progress labor.&#xA;It&amp;rsquo;s tricky task and when you’re my age you need to know what to cull and what to keep. What to rewrite and what to set in stone. There&amp;rsquo;s no exact formula for a CV that lands you a new or better job. 🤷&lt;/p&gt;&#xA;&lt;p&gt;Since I&amp;rsquo;ve been a busy bee on GitHub anyway and writing everything in &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; —  even started using &lt;a href=&#34;https://en.wikipedia.org/wiki/Obsidian_(software)&#34;&gt;Obsidian&lt;/a&gt; — I thought: why not use Markdown to write and work on my CV?&#xA;So I decided to rewrite the whole thing to &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Nfo Forge</title>
 				<link>https://opedromandrade.github.io/posts/nfo-forge/</link>
