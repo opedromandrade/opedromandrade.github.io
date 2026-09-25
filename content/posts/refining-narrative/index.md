@@ -1,6 +1,6 @@
 +++
 date = '2026-09-25T10:27:38+01:00'
-draft = true
+draft = false
 title = 'Refining the Narrative'
 +++
 {{< figure src="cv+markdown.svg" alt="cv+markdown" >}}
