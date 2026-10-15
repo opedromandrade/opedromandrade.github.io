@@ -1,7 +1,7 @@
 +++
 date = '2026-10-12T21:28:44+01:00'
 draft = false
-title = 'Md to Pdf - Converting simple Markdown to Styled pdf'
+title = 'Md to Pdf - Converting simple Markdown to Styled .pdf'
 +++
 
 {{< figure src="md2pdf.svg" alt="md2pdf" >}}

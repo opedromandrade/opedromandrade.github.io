@@ -135,10 +135,4 @@
       <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
     </rect>
   </g>
-
-  <!-- Subtle corner accents -->
-  <path d="M 20 20 L 60 20 M 20 20 L 20 60" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.5"/>
-  <path d="M 1180 20 L 1140 20 M 1180 20 L 1180 60" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.5"/>
-  <path d="M 20 380 L 60 380 M 20 380 L 20 340" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.5"/>
-  <path d="M 1180 380 L 1140 380 M 1180 380 L 1180 340" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.5"/>
 </svg>
