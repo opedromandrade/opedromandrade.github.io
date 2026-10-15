@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://opedromandrade.github.io/posts/md-to-pdf/</loc>
-    <lastmod>2026-10-12T21:28:44+01:00</lastmod>
+    <loc>https://opedromandrade.github.io/posts/obsidian-rclone-sync/</loc>
+    <lastmod>2026-10-15T15:27:15+01:00</lastmod>
   </url><url>
     <loc>https://opedromandrade.github.io/</loc>
-    <lastmod>2026-10-12T21:28:44+01:00</lastmod>
+    <lastmod>2026-10-15T15:27:15+01:00</lastmod>
   </url><url>
     <loc>https://opedromandrade.github.io/posts/</loc>
+    <lastmod>2026-10-15T15:27:15+01:00</lastmod>
+  </url><url>
+    <loc>https://opedromandrade.github.io/posts/md-to-pdf/</loc>
     <lastmod>2026-10-12T21:28:44+01:00</lastmod>
   </url><url>
     <loc>https://opedromandrade.github.io/posts/refining-narrative/</loc>

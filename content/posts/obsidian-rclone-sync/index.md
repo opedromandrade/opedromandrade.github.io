@@ -1,6 +1,6 @@
 +++
 date = '2026-10-15T15:27:15+01:00'
-draft = true
+draft = false
 title = 'Obsidian Rclone Sync'
 +++
 
