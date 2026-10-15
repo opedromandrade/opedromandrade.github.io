@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="icloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+  </g>
+
+  <!-- === LEFT SIDE: WINDOWS LAPTOP === -->
+  <g transform="translate(120, 130)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="140" height="90" rx="6" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+    <rect x="8" y="8" width="124" height="74" rx="3" fill="#1a202c"/>
+    <rect x="16" y="18" width="60" height="4" rx="2" fill="#a855f7"/>
+    <rect x="16" y="28" width="90" height="4" rx="2" fill="#7c3aed"/>
+    <rect x="16" y="38" width="45" height="4" rx="2" fill="#6366f1"/>
+    <rect x="16" y="48" width="75" height="4" rx="2" fill="#a855f7" opacity="0.6"/>
+    <rect x="16" y="58" width="55" height="4" rx="2" fill="#7c3aed" opacity="0.6"/>
+    <rect x="16" y="68" width="80" height="4" rx="2" fill="#6366f1" opacity="0.4"/>
+    <rect x="-15" y="90" width="170" height="8" rx="3" fill="#4a5568"/>
+  </g>
+
+  <text x="190" y="260" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" fill="#a0aec0" text-anchor="middle" letter-spacing="2">WINDOWS</text>
+
+  <!-- === SYNC ARROWS (left) === -->
+  <g transform="translate(420, 175)">
+    <path d="M 0 0 L 120 0" stroke="#a855f7" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+    <polygon points="120,-7 135,0 120,7" fill="#a855f7"/>
+    <path d="M 120 20 L 0 20" stroke="#6366f1" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+    <polygon points="0,13 -15,20 0,27" fill="#6366f1"/>
+  </g>
+
+  <text x="490" y="230" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#c4b5fd" text-anchor="middle" letter-spacing="3">rclone bisync</text>
+
+  <!-- === CENTER: iCLOUD === -->
+  <g transform="translate(600, 120)" filter="url(#softShadow)">
+    <path d="M 40 55 
+             C 20 55, 5 40, 5 25 
+             C 5 10, 20 -5, 40 -5 
+             C 50 -20, 75 -25, 90 -15 
+             C 105 -30, 135 -25, 140 -5 
+             C 160 -5, 175 10, 175 25 
+             C 175 40, 160 55, 140 55 
+             Z" 
+          fill="url(#icloud)" opacity="0.95"/>
+    <path d="M 50 40 
+             C 38 40, 30 32, 30 22 
+             C 30 12, 40 5, 52 5 
+             C 60 -5, 78 -8, 88 0 
+             C 98 -10, 120 -6, 124 6 
+             C 138 6, 148 15, 148 25 
+             C 148 35, 138 42, 126 42 
+             Z" 
+          fill="#ffffff" opacity="0.3"/>
+    <g transform="translate(75, 10) scale(1.1)">
+      <polygon points="0,-18 12,0 0,18 -12,0" fill="#a855f7" opacity="0.9"/>
+      <polygon points="0,-18 12,0 0,0" fill="#c4b5fd" opacity="0.9"/>
+      <polygon points="0,0 12,0 0,18" fill="#7c3aed" opacity="0.9"/>
+    </g>
+  </g>
+
+  <text x="600" y="260" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" fill="#a0aec0" text-anchor="middle" letter-spacing="2">iCLOUD DRIVE</text>
+
+  <!-- === SYNC ARROWS (right) === -->
+  <g transform="translate(800, 175)">
+    <path d="M 0 0 L 120 0" stroke="#a855f7" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+    <polygon points="120,-7 135,0 120,7" fill="#a855f7"/>
+    <path d="M 120 20 L 0 20" stroke="#6366f1" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+    <polygon points="0,13 -15,20 0,27" fill="#6366f1"/>
+  </g>
+
+  <!-- === RIGHT SIDE: iPHONE === -->
+  <g transform="translate(990, 115)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="70" height="130" rx="12" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+    <rect x="6" y="10" width="58" height="110" rx="6" fill="#1a202c"/>
+    <rect x="24" y="10" width="22" height="6" rx="3" fill="#2d3748"/>
+    <rect x="12" y="24" width="30" height="3" rx="1.5" fill="#a855f7"/>
+    <rect x="12" y="32" width="46" height="3" rx="1.5" fill="#7c3aed" opacity="0.7"/>
+    <rect x="12" y="40" width="38" height="3" rx="1.5" fill="#6366f1" opacity="0.6"/>
+    <rect x="12" y="48" width="42" height="3" rx="1.5" fill="#a855f7" opacity="0.5"/>
+    <rect x="12" y="56" width="28" height="3" rx="1.5" fill="#7c3aed" opacity="0.4"/>
+    <polygon points="52,100 58,108 52,116 46,108" fill="#a855f7" opacity="0.8"/>
+  </g>
+
+  <text x="1025" y="260" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" fill="#a0aec0" text-anchor="middle" letter-spacing="2">iPHONE</text>
+
+  <!-- === TITLE TEXT === -->
+  <text x="600" y="320" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+    Sync Obsidian Between Windows &amp; iPhone
+  </text>
+  <text x="600" y="352" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#a0aec0" text-anchor="middle" letter-spacing="3">
+    RCLONE · iCLOUD DRIVE · NO DROPBOX, NO GOOGLE
+  </text>
+
+  <!-- === SIGNATURE: terminal prompt (discreet) === -->
+  <g transform="translate(1030, 378)" opacity="0.45">
+    <text font-family="'Courier New', monospace" font-size="12" fill="#c4b5fd">
+      <tspan fill="#a855f7" font-weight="700">pedro@github.io</tspan><tspan fill="#a0aec0">:</tspan><tspan fill="#6366f1" font-weight="700">~</tspan><tspan fill="#a0aec0">$</tspan>
+    </text>
+    <rect x="128" y="-10" width="7" height="13" fill="#c4b5fd">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Subtle corner accents -->
+  <path d="M 20 20 L 60 20 M 20 20 L 20 60" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 1180 20 L 1140 20 M 1180 20 L 1180 60" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 20 380 L 60 380 M 20 380 L 20 340" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 1180 380 L 1140 380 M 1180 380 L 1180 340" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
